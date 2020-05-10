@@ -1,18 +1,22 @@
 import random
-from Time_Schedule import DAY,TIME,TOPICS,printDAY
+from Time_Schedule import DAY,TIME,TOPICS,printDAY         # This is the module created by me where all the function and the variables are defined
 import datetime
 from tkinter import *
 import tkinter as tk
 
 
 def show():
+
 	timeTable = {}
 	flag=0
+
 	for i in range(len(TIME)):
 		topic = TOPICS[random.randint(0,len(TOPICS)-1)]
+
 		if(topic=='PYTHON 7 HOURS'):
 			timeTable[TIME[i]] = topic
 			flag=1
+
 		elif(flag==0):
 			timeTable[TIME[i]] = topic
 
@@ -22,17 +26,17 @@ def show():
 		sub = key + ": "+ value
 		if(i==1):
 			First.config(text=sub)
-			print()
-		if(i==2):
+		elif(i==2):
 			Second.config(text=sub)
-		if(i==3):
+		elif(i==3):
 			Third.config(text=sub)
-		if(i==4):
+		elif(i==4):
 			Fourth.config(text=sub)
-		if(i==5):
+		elif(i==5):
 			Fifth.config(text=sub)
-		if(i==6):
+		elif(i==6):
 			Sixth.config(text=sub)
+
 		i+=1
 
 
