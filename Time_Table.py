@@ -4,7 +4,8 @@ import datetime
 from tkinter import *
 import tkinter as tk
 
-
+print(random.randint(1,12))
+print(random.randint(2015,2019))
 def show():
 
 	timeTable = {}

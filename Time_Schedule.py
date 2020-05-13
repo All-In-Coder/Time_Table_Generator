@@ -40,11 +40,12 @@ TOPICS = [
 	'MOS ALGORITHM,SQRT DECOMPOSITION',
 	'CODECHEF AUGUST 2019',
 	'CODECHEF JANAURY 2020',
-	'DATA Science PROJECT',
+	'Data Science Project',
 	'JAVA',
 	'SQL',
 	'NODE JS',
-	'PYTHON 7 HOURS'
+	'PYTHON 7 HOURS',
+	'C++ Saurabh Shukla'
 ]
 
 
